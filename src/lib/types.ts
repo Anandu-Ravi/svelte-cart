@@ -43,3 +43,8 @@ export type Meta = {
 	barcode: string;
 	qrCode: string;
 };
+export type CartProduct = {
+	id: string;
+	product: Product;
+	quantity: number;
+};
